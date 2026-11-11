@@ -1,0 +1,7 @@
+Lexeme          Type            Scope           Array Size  
+----------------------------------------------------------
+main            Function        Global          -           
+a               char            main            -           
+b               char            main            -           
+c               int             main            -           
+d               int             main            -           

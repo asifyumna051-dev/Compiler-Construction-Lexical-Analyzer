@@ -1,39 +1,17 @@
-#include <stdio.h>
-int main()
+void main(void)
 {
-    int a = 10;
-    int b = 20;
-    int sum = a + b;
-    int x = 10;
+    char a, b;
+    int c, d;
 
-    /* This is a comment */
+    c = 10;
+    d = c + 5;
 
-    printf("Sum = %d", sum);
-
-    char grade = 'A';
-
-    return 0;
+    if (c > 5)
+    {
+        d = c + 2;
+    }
+    else
+    {
+        d = 10;
+    }
 }
-
-/*int main()
-{
-    int a = 10;
-
-    char grade = 'AB';
-
-    printf("Hello
-    World");
-
-    int x = 10 ~ 20;
-
-    return 0;
-}*/
-
-*/int main()
-{
-    int a = 10;
-
-    /* This is an un-terminated comment
-
-    return 0;
-}*/
